@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{ 
+    font-family: "Fira Sans", serif; 
+    padding: 0;
+    margin: 0;
+    
+}
+
+.head {   /* Frame 2 */
+background: rgb(245, 245, 245);
+display: flex;
+padding: 24px;  
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px 160px 24px 160px;
+}
+
+.bd { 
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left; 
+
+} 
+
+.btn1 {
+color: rgb(0, 106, 80);
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: 0%;
+text-align: left;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 48;
+padding: 15px 30px 15px 30px;
+box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+
+}
+
+
+.banner{   
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 64px;
+padding: 80px 100px 80px 100px;
+border-radius: 24px;
+background: rgb(198, 228, 214);
+margin-top: 20px;
+margin-left: 160px;
+margin-right: 160px;
+margin-bottom: 80px;
+}
+
+.banner div{ 
+    align-items: center;
+    
+}
+
+
+
+.bannertext1 {
+color: rgba(14, 14, 14, 0.5);
+
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+
+.bannertext2 {
+    color: rgb(14, 14, 14);
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+margin-bottom: 16px;
+}
+
+.banner div .btn2{
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    gap: 48;
+padding: 17px 34px 17px 34px;
+   
+}
+
+.sec2head{
+
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+margin-left: 160px;
+margin-right: 160px;
+margin-bottom: 32px;
+}
+
+.sec2boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+
+
+}
+
+.sec2boxes .sec2box1,.sec2box2,.sec2box3,.sec2box4{
+    height:auto;
+    width: 302px;
+box-sizing: border-box ;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+gap: 24;
+padding: 24px;
+}
+
+.sec2boxes .sec2boxtext{
+    color: rgba(14, 14, 14, 0.8);
+
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.sec2boxes .sec2boxtext2 {
+    color: rgba(14, 14, 14, 0.7);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
